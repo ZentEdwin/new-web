@@ -324,6 +324,11 @@
 			margin: 0 0 -1px -1.5em;
 		}
 
+		.pic{
+
+			width: 350px;
+		}
+
 		.row.uniform > * {
 			padding: 1.5em 0 0 1.5em;
 		}
@@ -537,6 +542,11 @@
 
 		.row {
 			margin: 0 0 -1px -1.5em;
+		}
+
+		.pic{
+
+			width: 290px;
 		}
 
 		.row.uniform > * {
@@ -754,6 +764,11 @@
 			margin: 0 0 -1px -1.5em;
 		}
 
+		.pic{
+
+			width: 210px;
+		}
+
 		.row.uniform > * {
 			padding: 1.5em 0 0 1.5em;
 		}
@@ -969,6 +984,11 @@
 			margin: 0 0 -1px -1.5em;
 		}
 
+		.pic{
+
+			width: 155px;
+		}
+
 		.row.uniform > * {
 			padding: 1.5em 0 0 1.5em;
 		}
@@ -1182,6 +1202,11 @@
 
 		.row {
 			margin: 0 0 -1px -1.5em;
+		}
+
+		.pic{
+
+			width: 300px;
 		}
 
 		.row.uniform > * {
@@ -3821,4 +3846,16 @@
 
 		margin:0em;
 
+	}
+
+	.color{
+
+		background-color: #a41e3e;
+		color: black;
+	}
+
+	.color2{
+
+		margin-top: -25px;
+		color: #2e3842;
 	}

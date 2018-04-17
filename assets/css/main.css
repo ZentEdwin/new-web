@@ -1,13 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -2425,27 +2419,27 @@
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				background-color: rgba(0, 0, 0, 0.50);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
+				background-color: rgba(0, 0, 0, 0.20);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
+				background-color: rgba(0, 0, 0, 0.20);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-color: rgba(0, 0, 0, 0.50);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				background-color: rgba(0, 0, 0, 0.50);
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(0, 0, 0, 0.21);
+				background-color: rgba(0, 0, 0, 0.20);
 			}
 
 			.features li:nth-child(7) {
@@ -2466,7 +2460,7 @@
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: white;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2565,15 +2559,15 @@
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgb(224, 75, 75);
+			background-color: rgb(175, 57, 57);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgb(106, 156, 208);
+			background-color: rgb(76, 112, 148);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: #ef994f;
+			background-color: #a06633;
 		}
 
 		.spotlight:nth-child(4) {
@@ -2651,6 +2645,11 @@
 
 	.wrapper {
 		padding: 6em 0 4em 0 ;
+	}
+
+	.wrapper2 {
+
+		padding: 3em 0 4em 0;
 	}
 
 		.wrapper > .inner {
@@ -2837,7 +2836,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #17a2b8;
 			color: #d3d4e4;
 		}
 
@@ -3292,7 +3291,7 @@
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #273c48;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3863,7 +3862,7 @@
 
 	.color{
 
-		background-color: #a41e3e;
+		background-color: #11456d;
 		color: black;
 	}
 
@@ -3872,3 +3871,179 @@
 		margin-top: -25px;
 		color: #2e3842;
 	}
+
+	.color3{
+
+		background-color: #ed4933;
+		border-color: #ed4933;
+	}
+
+	.color4{
+
+		background-color: #00000045;
+		color:white;
+	}
+
+	.color5{
+
+		background-color: #426d71;
+	}
+
+	.fuente{
+
+		font-family: 'Francois One', sans-serif;
+
+	}
+
+	.cuerpo{
+
+	    font-family: 'News Cycle', sans-serif;
+	    font-size: 18px;
+	    padding: 0px 0px 0px 0px;
+	    line-height: 30px;
+	    text-align: justify;	
+	}
+
+	.circle{
+
+		 width: 100px;
+	     height: 100px;
+	     -moz-border-radius: 50%;
+	     -webkit-border-radius: 50%;
+	     border-radius: 50%;
+	     background:red;
+
+    }
+
+	.circular--landscape {
+	  position: relative;
+	  width: 150px;
+	  height: 150px;
+	  overflow: hidden;
+	  border-radius: 50%;
+	}
+
+	.circular--landscape img {
+	  width: auto;
+	  height: 100%;
+	  margin-left: -30px;
+	}
+
+	.raw{
+
+           margin-top:25px;
+           
+	}
+
+
+
+.dropdown {
+    position: relative;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/* price table*/
+
+
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.black{
+	color:black;
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morado{
+
+	    background-color: rgb(32, 46, 107)!important;
+}
+
+.naranja{
+
+	    background-color: rgb(179, 83, 18)!important;
+}
+
+.celeste{
+
+	    background-color: #3392a0!important;
+}
+
+.style6{
+
+		background-color: #1c317b;
+}

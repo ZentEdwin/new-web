@@ -3,12 +3,12 @@
 	<head>
 		<title>e-learning for life</title>
 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		
+
 	</head>
 	<body>
 
@@ -24,12 +24,17 @@
 									<a href="#menu" class="menuToggle"><span>Menú</span></a>
 									<div id="menu">
 										<ul>
-										    <h2><img src="images/logo-e.png"></img></h2>
+										    <h2><img src="images/logo-e2.png"></img></h2>
 											<li><a class="icon fa-share-alt" href="index.html"> e-Learning</a></li>
 											<li><a class="icon fa-users" href="generic.html"> Nosotros</a></li>
-											<li><a class="icon fa-puzzle-piece" href="#"> Módulos</a></li>
 											<li><a class="icon fa-wordpress" href="elearning/index.html"> Blog</a></li>
-											<li><a class="icon fa-cubes" href="#"> Alianzas</a></li>
+											<li class="dropdown"><a class="icon fa-cubes" href="#"> Alianzas</a>
+											 <div class="dropdown-content">
+											    <a class="icon fa-puzzle-piece" href="#"> Plataforma</a>
+											    <a class="icon fa-puzzle-piece" href="modulos.html"> Enterprice</a>
+											    <a class="icon fa-puzzle-piece" href="#"> Sace</a>
+											  </div>
+											 </li>
 											<li><a class="icon fa-envelope" href="contact.html"> Contáctanos</a></li>
 										</ul>
 									</div>
@@ -39,50 +44,125 @@
 					</header>
 
 				<!-- Main -->
-					<article id="main">
+
+				<article id="main">
 						<header>
-							<h2>Nuestras Alianzas</h2>
+							<h2>Plataforma Educativa</h2>
 							<p></p>
-						</header>
+					</header>
 
-					<section class="wrapper special color">	
-						<div class="container">	
-							<h2>Nuestras Alianzas</h2>
-							<div class="row">
-								<div class="span 3">
-									<div class="card pic">
-									  <img class="card-img-top" src="images/elearning.jpg" alt="Card image">
-									  <div class="card-body">
-									    <h4 class="card-title color2">e-Learning</h4>
-									    <p class="card-text">Plataforma Eduactiva</p>
-									    <a href="#" class="btn btn-primary">Ver Más</a>
-									  </div>
-									</div>	
-									</div>	
+				<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Plataforma Educativa</h2>
+								<p>Hemos creado una plataforma educativa integrando las necesidades de todos los participantes en el proceso de enseñanza. Con la plataforma educativa usted podrá asegurar un sistema funcional de educación que le provea reportes en tiempo real sobre el desempeño de sus estudiantes y maestros o capacitadores. Tome el primer paso para actualizar la manera en la que se enseña en su institución. </p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-share-alt major style1"><span class="label">Lorem</span></span></li> 
+								<li><span class="icon fa-bookmark major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-graduation-cap major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
 
-									<div class="span 3">
-										<div class="card pic">
-										  <img class="card-img-top" src="images/enterprice.jpg" alt="Card image">
-										  <div class="card-body">
-										    <h4 class="card-title color2">Enterprise</h4>
-										    <p class="card-text">Plataforma Contable</p>
-										    <a href="#" class="btn btn-primary">Ver Más</a>
-										  </div>
-										</div>	
-									</div>	
 
-									<div class="span 3">
-									<div class="card pic">
-									  <img class="card-img-top" src="images/sace.jpg" alt="Card image">
-									  <div class="card-body">
-									    <h4 class="card-title color2">SACE</h4>
-									    <p class="card-text">Libros Virtuales</p>
-									    <a href="#" class="btn btn-primary">Ver Más</a>
-									  </div>
-								  </div>	
-							 </div>	
-						   </div>
-						</div>	
+					<section id="two" class="wrapper alt style2">
+						<section class="morado spotlight ">
+							<div class="image"><img src="images/2.jpg" alt="" /></div><div class="content">
+								<h2>Versatilidad</h2>
+								<p>La plataforma de e-Learning está diseñada para poder ayudarte en tu metodología preferida. Con la variedad de módulos y herramientas que la plataforma ofrece tú puedes escoger la mejor manera de utilizarla. </p>
+							</div>
+						</section>
+						<section class="naranja spotlight">
+							<div class="image"><img src="images/Diseño.jpg" alt="" /></div><div class="content">
+								<h2>Diseño y velocidad</h2>
+								<p>Cuando se creó la plataforma, se tomó en cuenta las necesidades de cada usuario. Por lo mismo se creó un diseño amigable para cada uno de los integrantes y se hicieron esfuerzos para crear una experiencia fluida e intuitiva.</p>
+							</div>	
+						</section>
+						<section class="celeste spotlight">
+							<div class="image"><img src="images/3.jpg" alt="" /></div><div class="content">
+								<h2>Innovación</h2>
+								<p>La plataforma permite que su institución innove en el proceso educativo, proveyendo una amplia selección de herramientas virtuales. </p>
+							</div>
+						</section>
+					</section>
+
+						
+					<section class="wrapper2 special color5" id="ultimate">	
+							
+							<h2>Módulos de la plataforma</h2>
+
+							<div class="container">
+							  <div class="row">
+							    <div class="col">
+							    	<div class="w3-container">
+							  		<div class="w3-card-4 color4" style="width:100%">
+							      <img src="images/user.png" alt="Avatar" class="w3-circle raw " style="width:60px">
+							      <h3 class="">Creación de Pensum</h3>
+							      <p>Mantén un control sobre el contenido que se enseña en tu institución.</p><br>
+							    </div>
+							  </div>
+							</div>
+							    <div class="col">
+							      <div class="w3-container">
+							  		<div class="w3-card-4 color4" style="width:100%">
+							      <img src="images/user.png" alt="Avatar" class=" w3-circle raw" style="width:60px">
+							      <h3 class="">Tareas</h3>
+							      <p>Crea cualquier cantidad de tareas con fechas de entrega y carga automática al cuadro de notas.</p><br>
+							    </div>
+							  </div>
+							</div>
+					     </div>
+					 </div>
+
+					 <div class="container">
+							  <div class="row">
+							    <div class="col">
+							    	<div class="w3-container">
+							  		<div class="w3-card-4 color4" style="width:100%; margin-top:20px;">
+							      <img src="images/user.png" alt="Avatar" class=" w3-circle raw" style="width:60px">
+							      <h3 class="">Cuadros de notas</h3>
+							      <p>Generador de cuadros de notas para todos los alumnos de manera automática y personalizado para su institución.</p><br>
+							    </div>
+							  </div>
+							</div>
+							    <div class="col">
+							      <div class="w3-container">
+							  		<div class="w3-card-4 color4" style="width:100%; margin-top:20px;">
+							      <img src="images/user.png" alt="Avatar" class=" w3-circle raw" style="width:60px">
+							      <h3 class="">Administración de Sedes</h3>
+							      <p>Reportes de rendimiento académico, control de contenidos, tareas, circulares, etc. todo separado por sedes.</p><br>
+							    </div>
+							  </div>
+							</div>
+					     </div>
+					 </div>
+							
+
+						<div class="container">
+							  <div class="row">
+							    <div class="col">
+							    	<div class="w3-container">
+							  		<div class="w3-card-4 color4" style="width:100%; margin-top:20px;">
+							      <img src="images/user.png" alt="Avatar" class="w3-circle raw" style="width:60px">
+							      <h3 class="">Usuarios</h3>
+							      <p>Administración de usuarios con diferentes permisos para adaptarse a sus necesidades.</p><br>
+							    </div>
+							  </div>
+							</div>
+							    <div class="col">
+							      <div class="w3-container">
+							  		<div class="w3-card-4 color4" style="width:100%; margin-top:20px;">
+							      <img src="images/user.png" alt="Avatar" class="w3-circle raw" style="width:60px">
+							      <h3 class="">Drive (Nube) institucional</h3>
+							      <p>Comparta documentos entre todo el personal de su institución por medio de una carpeta online.</p><br>
+							    </div>
+							  </div>
+							</div>
+					     </div>
+					 </div>
+
+
 					</section>
 				</article>
 							
@@ -112,7 +192,6 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/58d985d15b68a2fb6ecf2b6ff/bfa83b6e682e49341dac84f44.js");</script>
 

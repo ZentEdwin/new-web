@@ -6,10 +6,8 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
 	</head>
 	<body class="landing">
 
@@ -25,12 +23,17 @@
 									<a href="#menu" class="menuToggle"><span>Menú</span></a>
 									<div id="menu">
 										<ul>
-											<h2><img src="images/logo-e.png"></img></h2>
+											<h2><img src="images/logo-e2.png"></img></h2>
 											<li><a class="icon fa-share-alt" href="index.html"> e-Learning</a></li>
 											<li><a class="icon fa-users" href="generic.html"> Nosotros</a></li>
-											<li><a class="icon fa-puzzle-piece" href="modulos.html"> Módulos</a></li>
 											<li><a class="icon fa-wordpress" href="elearning/index.html"> Blog</a></li>
-											<li><a class="icon fa-cubes" href="alianzas.html"> Alianzas</a></li>
+											<li class="dropdown"><a class="icon fa-cubes" href="alianzas.html"> Alianzas</a>
+											 <div class="dropdown-content">
+											    <a class="icon fa-puzzle-piece" href="alianzas.html"> Plataforma</a>
+											    <a class="icon fa-puzzle-piece" href="modulos.html"> Enterprice</a>
+											    <a class="icon fa-puzzle-piece" href="sace.com.gt"> Sace</a>
+											  </div>
+											 </li>
 											<li><a class="icon fa-envelope" href="contact.html"> Contáctanos</a></li>
 										</ul>
 									</div>
@@ -42,92 +45,87 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2><img src="images/logo-e.png"></img></h2>
-							<p>Plataforma Educativa<br />
-							Contenidos Codificados con el <br />
-							<a href="http://www.cnbguatemala.org">CNB de Guatemala</a>.</p>
+							<h2><img src="images/logo-e2.png"></img></h2>
+							<p>Desarrolladores de <br/>
+							Herramientas Educativas <br/> Online 
+							</p>
 							<ul class="actions">
-								<li><a href="generic.html" class="button special">Nosotros</a></li>
+								<li><a href="tableprice.html" class="button special">Comienza Ahora</a></li>
 							</ul>
 						</div>
-						<a href="#one" class="more scrolly">Leer Más</a>
+						<a href="#ultimate" class="more scrolly">Leer Más</a>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Plataforma Educativa<br />
-								Metodología Activa</h2>
-								<p>e-Learning for life pone en práctica estrategias, procedimientos y acciones planificadas previamente en la dosificación anual gracias a la utilización e implementación de las Tic, Tac y Tep en complemento <br />
-								  de soporte a contenidos clasificados por tema, materia y edad del educando.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-share-alt major style1"><span class="label">Lorem</span></span></li> 
-								<li><span class="icon fa-bookmark major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-graduation-cap major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
+				<!-- Cards -->		
+
+					<section class="wrapper2 special color" id="ultimate">	
+						<div class="container ">	
+							<h2>Nuestros Productos</h2>
+							<div class="row">
+								<div class="span 3">
+									<div class="card pic">
+									  <img class="card-img-top" src="images/elearning.jpg" alt="Card image">
+									  <div class="card-body">
+									    <h4 class="card-title color2">e-Learning</h4>
+									    <p class="card-text">Plataforma Eduactiva</p>
+									    <a href="alianzas.html" class="btn btn-primary color3">Ver Más</a>
+									  </div>
+									</div>	
+									</div>	
+
+									<div class="span 3">
+										<div class="card pic">
+										  <img class="card-img-top" src="images/enterprice.jpg" alt="Card image">
+										  <div class="card-body">
+										    <h4 class="card-title color2">Enterprise</h4>
+										    <p class="card-text">Plataforma Contable</p>
+										    <a href="modulos.html" class="btn btn-primary color3">Ver Más</a>
+										  </div>
+										</div>	
+									</div>	
+
+									<div class="span 3">
+									<div class="card pic">
+									  <img class="card-img-top" src="images/sace.jpg" alt="Card image">
+									  <div class="card-body">
+									    <h4 class="card-title color2">SACE</h4>
+									    <p class="card-text">Libros Virtuales</p>
+									    <a href="sace.com.gt" class="btn btn-primary color3">Ver Más</a>
+									  </div>
+								  </div>	
+							 </div>	
+						   </div>
+						</div>	
 					</section>
+			
+
+
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
+				<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="/new-web/images/Diseño.jpg" alt="" /></div><div class="content">
-								<h2>Diseño y Velocidad</h2>
-								<p>Cuenta con una estructura agradable, de fácil navegación y vista desde cualquier dispositivo inteligente.</p>
+							<div class="image"><img src="images/colegios.png" alt="" /></div><div class="content">
+								<h2>Centros Educativos</h2>
+								<p>La plataforma fue creada para que las entidades educativas puedan impartir su clase de forma presencial, semipresencial, y a distancia. Utilizando material virtual, y halla una mejor relación entre alumno – maestro, alumno – padre.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/2.jpg" alt="" /></div><div class="content">
-								<h2>Libros Virtuales</h2>
-								<p>Contenido de alto nivel académico, desarrollado por personas expertas en el tema y dosificado de acuerdo al CNB de Guatemala.</p>
+							<div class="image"><img src="images/universidad.png" alt="" /></div><div class="content">
+								<h2>Universidades</h2>
+								<p>La versatilidad de la plataforma hace que pueda ser utilizada por universidades, sin realizar adaptaciones extras a ella, cuenta con una funcionalidad de asignaciones a alumnos por cursos, créditos, prerrequisitos, etc.</p>
 							</div>	
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/3.jpg" alt="" /></div><div class="content">
-								<h2>Sistemas Administrativos</h2>
-								<p>Una manera de facilitar los procesos y actividades comunes de las instituciones educativas, para aumentar la productividad y eficiencia del colegio.</p>
+							<div class="image"><img src="images/educador.png" alt="" /></div><div class="content">
+								<h2>Educadores Independientes</h2>
+								<p>La plataforma también puede ser usada por tutores, personas autodidactas y educadores independientes, en la cual pueden impartir o estudiar los cursos virtuales con los que la plataforma cuenta. </p>
 							</div>
 						</section>
 					</section>
 
+		
 				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>e-learning Administrativo ERP-CRM</h2>
-								<p>ERP se refiere a Enterprise Resource Planning (Control de Producción y Finanzas).<br />
-								CRM se refiere a Custumer Relationship Management (Gestión sobre la Relación con los Clientes).</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Gestión financiera</h3>
-									<p>Podrás gestionar ingresos, egresos, también la introducción de pagos de salarios y reportes consolidados.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Control de cuentas bancarias</h3>
-									<p>Tendrás una gestión de cuentas bancarias y pagos automáticos de facturas de las domiciliaciones.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Manejo de responsabilidad</h3>
-									<p>Registro automático de todas las acciones del usuario responsable de una acción (creación de presupuestos, creación de factura, validación de las entidades tales como presupuestos, facturas, pedidos, expediciones, etc ...).</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Catálogo de clientes</h3>
-									<p>Tendrás una gestión de contactos, clientes y clientes potenciales, envió de correo a los terceros de forma masiva, creando una simple newsletter.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Proveedores</h3>
-									<p>Podrás gestionar estados de presupuestos, pedidos (clientes), pedidos (proveedores), estadísticas de presupuestos y pedidos (clientes y proveedores).</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Control de contratos</h3>
-									<p>Podrás gestionar tus contratos con tus clientes, facturar los contratos de los clientes gracias a la vinculación del módulo de facturación con los contratos.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+					
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
@@ -168,8 +166,7 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/58d985d15b68a2fb6ecf2b6ff/bfa83b6e682e49341dac84f44.js");</script>
+ 			<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/58d985d15b68a2fb6ecf2b6ff/bfa83b6e682e49341dac84f44.js");</script>
 	</body>
 </html>
